@@ -1,6 +1,6 @@
 dubbo:
   registry:
-    address: zookeeper://192.168.199.103:2181
+    address: zookeeper://192.168.1.20:2181
   protocol:
     port: 28080
 server:

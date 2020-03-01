@@ -1,3 +1,4 @@
+#dubbo
 1.导入依赖的jar包
 2.编写service接口，及其实现类
 3.dubbo配置文件的配置
@@ -7,9 +8,13 @@
     service 声明需要暴露的服务接口
 4.配置类上使用@ImportResource({"classpath:dubbo-provider.xml"})
 
-
 #admin
 1.导包
 2.配置类上添加@EnableAdminServer
 3.通过localhost:8080访问管理页面
+
+#自定义starter
+1.导入自定义装配的依赖
+2.自动装配的类
+3.在src/main/resources下新建META_INF/spring.factories
 
